@@ -1,0 +1,248 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+#p_frase{
+  display: block;
+  font-size: 27px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+#p_frasefinal{
+  display: block;
+  font-size: 18px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#question-text{
+  font-size: 24px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#p_perguntas{
+  display: block;
+  font-size: 20px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+#p_frases{
+  display: block;
+  font-size: 27px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+#p_frases2{
+  display: block;
+  font-size: 18px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.screen {
+    text-align: center;
+    border: 2px solid #ddd;
+    padding: 30px;
+    border-radius: 15px;
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+}
+#inicio{
+  font-size: 18px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  display: block;
+  font-size: 30px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+h2{
+    margin: 20px 0;
+  }
+  .error {
+    background-color: red;
+    color: white;
+  }
+  
+/* PARTE DAS QUALIDADES */
+#qualities-screen input[type="text"] {
+  display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    outline: none;
+  }
+  #p_qualidades{
+    display: block;
+    font-size: 20px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+#advance-qualities{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #051f3b;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+#final-question-screen input[type="text"] {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 30px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+#advance-final{
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #051f3b;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+/* ----------------------------------------------- */
+/* PARTE DOS SONHOS */
+#p_sonhos{
+  display: block;
+  font-size: 20px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+#dreams-screen input[type="text"] {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    outline: none;
+  }
+  #advance-dreams {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #051f3b;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+#goals-screen input[type="text"] {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 30px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+#advance-goals {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #051f3b;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* ----------------------------------------------- */
+button{
+  display: inline-block;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #051f3b;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 20px 10px;
+  width: 150px;
+}
+
+#summary-screen {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+  font-family: 'Ubuntu', sans-serif;
+  display: none; /* hide by default */
+}
+
+#summary-content h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#summary-content p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+#summary-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#summary-content li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+#summary-content li:last-child {
+  border-bottom: none;
+}

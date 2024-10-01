@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentin for you</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="start-screen" class="screen">
+        <h1>This is for You Eliiii</h1>
+        <p id="inicio">O Lorenzo fez isso para você compreender mais sobre você, a sua mente, seus sentimentos e o seu Relacionamento com ele.</p>
+        <p id="inicio">Mas antes de começar, vá para mais perto do Lorenzo e faça ele te abraçar, colocando os braços dele em volta da sua cintura.</p>
+        <button onclick="showIntro()">Começar</button>
+    </div>
+
+    <div id="intro-screen" class="screen" style="display: none;">
+        <p id="p_perguntas">As próximas 3 perguntas serão sobre si mesma, responda com cuidado!</p>
+        <button onclick="startQuestions()">Avançar</button>
+    </div>
+
+    <div id="question-screen" class="screen" style="display: none;">
+        <p id="question-text"></p>
+        <button id="option1" onclick="checkAnswer(true)"></button>
+        <button id="option2" onclick="checkAnswer(false)"></button>
+    </div>
+
+    <div id="dreams-screen" class="screen" style="display: none;">
+        <p id="p_sonhos">Escreva quais são os seus 3 maiores sonhos nos espaços a seguir:</p>
+        <input type="text" id="dream1" placeholder="Sonho 1" oninput="checkDreamInput()">
+        <input type="text" id="dream2" placeholder="Sonho 2" oninput="checkDreamInput()" style="display: none;">
+        <input type="text" id="dream3" placeholder="Sonho 3" oninput="checkDreamInput()" style="display: none;">
+        <button id="advance-dreams" style="display: none;" onclick="showGoals()">Avançar</button>
+    </div>
+
+    <div id="goals-screen" class="screen" style="display: none;">
+        <p id="p_sonhos">E para realizar esses 3 sonhos, o que você deve fazer?</p>
+        <input type="text" id="goal1" placeholder="Sonho 1" oninput="checkGoalInput()">
+        <input type="text" id="goal2" placeholder="Sonho 2" oninput="checkGoalInput()" style="display: none;">
+        <input type="text" id="goal3" placeholder="Sonho 3" oninput="checkGoalInput()" style="display: none;">
+        <button id="advance-goals" style="display: none;" onclick="showReflection()">Avançar</button>
+    </div>
+
+    <div id="reflection-screen" class="screen" style="display: none;">
+        <p id="p_frases">Viu como você não está confusa?<br>Viu como sabe o que quer?</p>
+
+        <p id="p_frases2">Às vezes podemos nos sentir perdidos, confusos, sem saber o que fazer... mas ter alguém ao seu lado para te relembrar o que deve ser feito, resolve tudo isso.</p>
+        <button onclick="showFeelings()">Avançar</button>
+    </div>
+
+    <div id="feelings-screen" class="screen" style="display: none;">
+        <p id="p_frases">A próxima pergunta será sobre o que você sente pelo Lorenzo, seja SINCERA, afinal, ele está literalmente com os braços em volta de você.</p>
+        <button onclick="showQualities()">Avançar</button>
+    </div>
+
+    <div id="qualities-screen" class="screen" style="display: none;">
+        <p id="p_qualidades">Quais são as 3 maiores qualidades que você gostaria que seu futuro namorado tivesse?</p>
+        <input type="text" id="quality1" placeholder="Qualidade 1" oninput="checkQualityInput()">
+        <input type="text" id="quality2" placeholder="Qualidade 2" oninput="checkQualityInput()" style="display: none;">
+        <input type="text" id="quality3" placeholder="Qualidade 3" oninput="checkQualityInput()" style="display: none;">
+        <button id="advance-qualities" style="display: none;" onclick="showLastQuestion()">Avançar</button>
+    </div>
+
+    <div id="notice-last-question-screen" class="screen" style="display: none;">
+        <p id="p_frases">Para a próxima e última pergunta, o Lorenzo irá tirar os braços de você, fechará os olhos e ficará de frente para ti.</p>
+        <button onclick="showFinalQuestion()">Avançar</button>
+    </div>
+
+    <div id="final-question-screen" class="screen" style="display: none;">
+        <p id="p_qualidades">O Lorenzo tem quais dessas 3 qualidades?</p>
+        <input type="text" id="final-quality" placeholder="Qualidade escolhida"  oninput="checkFinalQualityInput()">
+        <button id="advance-final" style="display: none;" onclick="showFinalScreen()">Avançar</button>
+    </div>
+
+    <div id="final-screen" class="screen" style="display: none;">
+        <p id="p_frase">Agora é o seguinte:</p>  
+        <p id="p_frasefinal">Se ele tiver essas qualidades e você quiser futuramente namorá-lo, coloque seus braços em volta do pescoço dele e beije-o. Se não quiser namorá-lo, sem beijar, diga para ele abrir os olhos... Essa será a senha para ele saber se irão ter algo ou não.</p>
+        <button onclick="showSummary()">Finalizar</button>
+    </div>
+
+    <div id="summary-screen" class="screen" style="display: none;">
+        <h2>Resumo das Respostas</h2>
+        <div id="summary-content"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
